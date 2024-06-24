@@ -1,6 +1,6 @@
 FROM alpine:3.19
 
-ENV MKGMAP_VERSION=r4919
+ENV MKGMAP_VERSION=r4921
 
 RUN apk add --no-cache zsh p7zip wget openjdk11
 RUN wget http://www.gmaptool.eu/sites/default/files/lgmt08220.zip && \
